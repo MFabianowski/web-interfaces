@@ -1,0 +1,87 @@
+h3 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #FFE5B4;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #FFE5B4;
+    font-weight: bold;
+}
+
+#main-header {
+    background-image: linear-gradient(90deg, #c2fcfe, #01bcc2);
+}
+
+body {
+    background-color: #282828;
+    color: hsla(0,0%,100%,.87);
+}
+
+#crit-header, #ur-header, #imp-header {
+    cursor: pointer;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input[data-state="invalid"] {
+    border-color: hsl(0, 76%, 50%);
+}
+
+input[data-state="valid"] {
+    border-color: #228B22;
+}
+
+.modal {
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    min-width: 40%;
+    list-style: none;
+}
+
+.todo:hover {
+    background: #ddd;
+    cursor: pointer;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+}
+
+.todo {
+    margin: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.date {
+    font-size: 1.0rem;
+    margin-left: auto;
+    text-align: center;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
