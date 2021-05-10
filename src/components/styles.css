@@ -1,0 +1,48 @@
+.students {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+}
+    
+.student {
+    padding: 10px;
+    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+.addInput {  
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.searchInput {  
+    padding: 0px;
+    width: 70%;
+    margin: 0 auto;
+}
+    
+.suggestedItem {
+    border: 2px solid black;
+    width: 5rem;
+    background-color: white;
+    cursor: pointer;
+}
+    
+.addedTags {
+    border: 2px solid black;
+    height: 5rem;
+    overflow: auto;
+}
+
+.indent-1-section {
+    width: 50%;
+    float: left;
+}
+
+.indent-2-section {
+    width: 50%;
+    float: right;
+}
