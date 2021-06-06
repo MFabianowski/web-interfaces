@@ -1,0 +1,11 @@
+.start_text {
+    font-family: "Cuprum", "Helvetica";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3px 0;
+}
+
+.start {
+    text-align: center;
+    font-size: 2rem;
+}

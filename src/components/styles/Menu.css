@@ -1,0 +1,26 @@
+.btn-default {
+    background-color: #ffa500;
+}
+
+.menu-main {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    width: 40rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: "Cuprum", "Helvetica";
+}
+
+.margin-down {
+    margin-bottom: 0.5rem;
+}
+
+.margin-up {
+    margin-top: 0.5rem;
+}
